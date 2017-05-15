@@ -54,7 +54,7 @@ MageCheck Team
 
 Licence
 -------
-[GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
+[OSL-3.0 license](https://opensource.org/licenses/OSL-3.0)
 
 Copyright
 ---------
