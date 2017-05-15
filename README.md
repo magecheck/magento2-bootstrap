@@ -52,7 +52,7 @@ MageCheck Team
 * Facebook: [@magecheck](https://www.facebook.com/magecheck/)
 * Linkedin: [@magecheck](https://www.linkedin.com/company-beta/11104569/)
 
-Licence
+License
 -------
 [GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
 
