@@ -1,7 +1,7 @@
 {
     "name": "magecheck/bootstrap",
     "description": "A small Magento Module that helps you add twitter bootstrap to your Magento 2",
-    "homepage": "https://github.com/firegento/FireGento_FastSimpleImport2",
+    "homepage": "https://github.com/magecheck/magento2-bootstrap",
     "type": "magento2-module",
     "version": "0.1.0",
     "require": {
