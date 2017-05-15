@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../vendor/magento/framework/Module/etc/module.xsd">
+    <body>
+        <referenceBlock name="head">
+            <block class="Magento\Theme\Block\Html\Head\Script" name="requirejs" before="-" ifconfig="bootstrap/general/library">
+                <arguments>
+                    <argument name="file" xsi:type="string">requirejs/require.js</argument>
+                </arguments>
+            </block>
+            <block class="Magento\RequireJs\Block\Html\Head\Config" name="requirejs-config" after="requirejs" ifconfig="bootstrap/general/library"/>
+        </referenceBlock>
+        <referenceBlock name="root">
+            <block class='MageCheck\Bootstrap\Block\Init' name='MageCheck_Bootstrap_Block_Init' ifconfig="bootstrap/general/library" />
+            <block class='MageCheck\Bootstrap\Block\InitTheme' name='MageCheck_Bootstrap_Block_InitTheme' ifconfig="bootstrap/general/theme" />
+        </referenceBlock>
+    </body>
+</page>

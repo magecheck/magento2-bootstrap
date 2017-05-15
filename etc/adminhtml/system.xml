@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magecheck" translate="label" sortOrder="1000">
+            <label>MageCheck Extensions</label>
+        </tab>
+        <section id="bootstrap" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Bootstrap 3</label>
+            <tab>magecheck</tab>
+            <resource>MageCheck_Bootstrap::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Configurating Bootstrap Integration (3.3.7)</label>
+                <field id="library" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Library</label>
+                    <source_model>MageCheck\Bootstrap\Model\Config\Source\Type</source_model>
+                </field>
+                <field id="theme" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Library Theme</label>
+                    <source_model>MageCheck\Bootstrap\Model\Config\Source\Type</source_model>
+                    <depends>
+                        <field id="bootstrap/general/library">1</field>
+                    </depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

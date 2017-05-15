@@ -1,0 +1,27 @@
+{
+    "name": "magecheck/bootstrap",
+    "description": "A small module that helps you add bootstrap to your Magento 2",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "authors": [
+        {
+            "name": "Victor Chiriac",
+            "email": "magecheck@gmail.com",
+            "homepage": "https://www.magecheck.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "MageCheck\\Bootstrap\\": ""
+        }
+    }
+}
