@@ -46,6 +46,7 @@ Any contribution to the development of Magento 2 Bootstrap is highly welcome. Th
 Developer
 ---------
  * Victor Chiriac
+
 MageCheck Team
 * Website: [https://www.magecheck.com/)
 * Facebook: [@magecheck](https://www.facebook.com/magecheck/)
