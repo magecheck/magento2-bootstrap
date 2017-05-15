@@ -1,5 +1,5 @@
 # magento2-bootstrap
-MageCheck - Magento 2 extensions
+MageCheck - Magento 2 Extensions
 ------------
 This company is the start-up of supplying Magento 2 extensions to the eCommerce market, making new friends,building new e-commerce and adding value to existing online shops.
 
@@ -46,7 +46,6 @@ Any contribution to the development of Magento 2 Bootstrap is highly welcome. Th
 Developer
 ---------
  * Victor Chiriac
- 
 MageCheck Team
 * Website: [https://www.magecheck.com/)
 * Facebook: [@magecheck](https://www.facebook.com/magecheck/)
@@ -54,7 +53,7 @@ MageCheck Team
 
 Licence
 -------
-[OSL-3.0 license](https://opensource.org/licenses/OSL-3.0)
+[GNU General Public License, version 3 (GPLv3)](http://opensource.org/licenses/gpl-3.0)
 
 Copyright
 ---------

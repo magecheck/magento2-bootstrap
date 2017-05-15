@@ -1,3 +1,8 @@
+/**
+ * Copyright © 2017 MageCheck - All rights reserved.
+ * See LICENSE.md bundled with this module for license details.
+ */
+
 var config = {
     paths: {
         /* Minified library */

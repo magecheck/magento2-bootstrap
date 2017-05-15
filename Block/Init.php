@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Copyright © 2017 MageCheck - All rights reserved.
+ * See LICENSE.md bundled with this module for license details.
+ */
 namespace MageCheck\Bootstrap\Block;
 
 class Init extends \Magento\Backend\Block\AbstractBlock
