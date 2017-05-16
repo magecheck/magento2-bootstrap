@@ -11,11 +11,11 @@
             <label>MageCheck Extensions</label>
         </tab>
         <section id="bootstrap" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>Bootstrap 3</label>
+            <label>Twitter Bootstrap Integration (3.3.7)</label>
             <tab>magecheck</tab>
             <resource>MageCheck_Bootstrap::config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Configurating Bootstrap Integration (3.3.7)</label>
+                <label>General</label>
                 <field id="library" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enable Library</label>
                     <source_model>MageCheck\Bootstrap\Model\Config\Source\Type</source_model>
