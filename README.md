@@ -1,4 +1,4 @@
-# magento2-bootstrap
+# Magento 2 Twitter Bootstrap Integration (3.3.7)
 MageCheck - Magento 2 Extensions
 ------------
 This company is the start-up of supplying Magento 2 extensions to the eCommerce market, making new friends,building new e-commerce and adding value to existing online shops.
