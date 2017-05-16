@@ -17,9 +17,8 @@ If you encounter any problems or bugs, please create an issue on [GitHub](https:
 Installation
 -------
 
-Create folder named MageCheck inside app/code (app/code/MageCheck).
-
-Create folder named Bootstrap inside app/code/MageCheck (app/code/MageCheck/Bootstrap).
+- Create folder named MageCheck inside app/code (app/code/MageCheck).
+- Create folder named Bootstrap inside app/code/MageCheck (app/code/MageCheck/Bootstrap).
 
 
 After you added the code to your app/code inside the project you open your terminal and go to your project root folder and just run the following commands:
