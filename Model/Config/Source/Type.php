@@ -5,16 +5,18 @@
  */
 namespace MageCheck\Bootstrap\Model\Config\Source;
 
-class Type implements \Magento\Framework\Option\ArrayInterface
+use Magento\Framework\Option\ArrayInterface;
+
+class Type implements ArrayInterface
 {
     /**
      * @return array
      */
     public function toOptionArray()
     {
-        return array(
-            array('value' => 0, 'label' => __('Disabled')),
-            array('value' => 1, 'label' => __('Enabled'))
-        );
+        return [
+            ['value' => 0, 'label' => __('Disabled')],
+            ['value' => 1, 'label' => __('Enabled')]
+        ];
     }
 }
