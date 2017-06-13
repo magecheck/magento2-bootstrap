@@ -21,7 +21,10 @@ class InitTheme extends \Magento\Backend\Block\AbstractBlock
      * @param array $data
      * @return void
      */
-    public function __construct(\Magento\Backend\Block\Context $context, \Magento\Framework\ObjectManagerInterface $objectmanager, array $data = [])
+    public function __construct(
+            \Magento\Backend\Block\Context $context,
+            \Magento\Framework\ObjectManagerInterface $objectmanager,
+            array $data = [])
     {
         $this->objectManager = $objectmanager;
 
