@@ -11,7 +11,7 @@ class InitTheme extends \Magento\Backend\Block\AbstractBlock
     /**
      * @var \Magento\Framework\ObjectManagerInterface
      */
-    private $_objectManager;
+    private $objectManager;
     
     /**
      * @override
@@ -23,10 +23,10 @@ class InitTheme extends \Magento\Backend\Block\AbstractBlock
      */
     public function __construct(\Magento\Backend\Block\Context $context, \Magento\Framework\ObjectManagerInterface $objectmanager, array $data = array())
     {
-        $this->_objectManager = $objectmanager;
+        $this->objectManager = $objectmanager;
 
         /** @var \Magento\Framework\View\Page\Config $page */
-        $page = $this->_objectManager->get('Magento\Framework\View\Page\Config');
+        $page = $this->objectManager->get('Magento\Framework\View\Page\Config');
         $page->addPageAsset('MageCheck_Bootstrap::bootstrap-3.3.7/css/bootstrap-theme.min.css');
 
         parent::__construct($context, $data);
