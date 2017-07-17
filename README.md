@@ -30,7 +30,7 @@ After you added the code to your app/code inside the project you open your termi
 
 After this you will have to go to:
 
-    Stores -> Configuration -> MageCheck Extensions -> Bootstrap 3
+    Stores -> Configuration -> MageCheck Extensions -> Twitter Bootstrap Integration (3.3.7)
     Set the "Enabled" on the "Enable Library"
     
 You can also set the "Enabled" on the "Enable Library Theme" if you wish to add the bootstrap theme also.
